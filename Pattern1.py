@@ -15,3 +15,8 @@ for word in result1:
 
 print()
 
+read2 = ' a.xls b.xls abc.xls def f.xlsx london.xls hello.xml'
+result2 = re.findall('\S*\.xls[\S]*', read2)
+for word in result2:
+    print(word)
+
